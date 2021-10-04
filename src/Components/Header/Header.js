@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
     return (
@@ -21,10 +22,10 @@ const Header = () => {
                             alt="React Bootstrap logo"
                         />
                         <Navbar.Brand className="me-5">Shaery's Music Studio</Navbar.Brand>
-                        <Nav.Link className="mx-5" href="/home">Home</Nav.Link>
-                        <Nav.Link className="mx-5" href="/about">About</Nav.Link>
-                        <Nav.Link className="mx-5" href="/service">Services</Nav.Link>
-                        <Nav.Link className="mx-5" href="/genre">Genres</Nav.Link>
+                        <NavLink className="mx-5 nav-btn" to="/home">Home</NavLink>
+                        <NavLink className="mx-5 nav-btn" to="/about">About</NavLink>
+                        <NavLink className="mx-5 nav-btn" to="/service">Services</NavLink>
+                        <NavLink className="mx-5 nav-btn" to="/genre">Genres</NavLink>
                     </Nav>
                 </Container>
             </Navbar>

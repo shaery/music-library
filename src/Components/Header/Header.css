@@ -1,0 +1,10 @@
+.nav-btn{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.nav-btn:hover{
+    font-weight: 600;
+    color: turquoise;
+}
