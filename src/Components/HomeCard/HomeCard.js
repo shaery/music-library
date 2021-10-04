@@ -37,7 +37,7 @@ const HomeCard = () => {
                 <div className="col">
                     <div className="card">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5iIQI828Jg8BUcGqtqagnu88Xm3pwUQktw&usqp=CAU" className="card-img-top w-75 m-5" alt="Violin_Image" />
-                        <div className="card-body mx-5">
+                        <div className="card-body mx-5 my-3">
                             <h5 className="card-title">Violin</h5>
                             <p className="card-text">You can play Violin for any type of music of your choice in 6 months.</p>
                             <p className="card-text">Price: $1000</p>

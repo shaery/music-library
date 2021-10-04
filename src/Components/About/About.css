@@ -1,0 +1,10 @@
+.about-main{
+    background-color: rgba(19, 73, 55, 0.541);
+    padding: 30px;
+    text-align: center;
+}
+
+.about-main h2{
+    font-weight: 700;
+    font-size: 40px;
+}

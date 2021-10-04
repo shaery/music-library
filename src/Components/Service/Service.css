@@ -1,0 +1,11 @@
+.service-main{
+    background-color: rgba(19, 73, 55, 0.541);
+    padding: 10px;
+}
+
+.service-heading{
+    font-weight: 800;
+    font-size: 40px;
+    margin: 10px;
+    padding: 30px;
+}
